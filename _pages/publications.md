@@ -5,7 +5,7 @@ title: Publications
 description: 
 years: [2023, 2022, 2019]
 years1: [2021, 2014]
-years2: [2021]
+years2: [2022,2017]
 nav: true
 nav_order: 1
 ---
@@ -29,7 +29,6 @@ nav_order: 1
 
 </div>
 
-</div>
 <h1 class="post-title">Selected Posters</h1>
 <div class="publications">
 
