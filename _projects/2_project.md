@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Taylor TD-learning
+description: Provides lower variance TD updates through a first-order Taylor expansion of expected TD updates.
+img: assets/img/2.jpg
 importance: 2
 category: work
 ---

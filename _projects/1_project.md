@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: EpiQ
+description: Attempts to estimate epistemic uncertainty of value functions, by maitaining a distribution over transition models as well as value function.
+img: assets/img/1.jpg
 importance: 1
 category: work
 ---
