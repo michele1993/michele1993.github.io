@@ -2,9 +2,10 @@
 layout: page
 title: Taylor TD-learning
 description: Provides lower variance TD updates through a first-order Taylor expansion of expected TD updates.
-img: assets/img/2.jpg
-importance: 2
-category: work
+img: assets/img/taylortd.jpg
+redirect: https://proceedings.neurips.cc/paper_files/paper/2023/file/036912a83bdbb1fd792baf6532f102d8-Paper-Conference.pdf
+importance: 1
+category: Past
 ---
 
 Every project has a beautiful feature showcase page.
