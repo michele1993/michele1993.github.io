@@ -1,7 +1,7 @@
 ---
 layout: page
 title: EpiQ
-description: Attempts to estimate epistemic uncertainty of value functions, by maitaining a distribution over transition models as well as value function.
+description: Attempts to estimate epistemic uncertainty of value functions, by approximating a distribution over transition models as well as value function through model ensambles.
 img: assets/img/Epic_ensamble.png
 importance: 3
 category: Past

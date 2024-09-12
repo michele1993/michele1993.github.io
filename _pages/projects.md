@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A collection of the most important projects I have been working on.
+description: A collection of the most important projects I am working on and I worked on.
 nav: true
 nav_order: 2
 display_categories: [Ongoing, Past]

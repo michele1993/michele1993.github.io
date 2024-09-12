@@ -1,39 +1,34 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Machine Learning and Neuroscience. 
+      institution: Wellcome Trust PhD programme, Faculty of Engineering Mathematics, University of Bristol, UK.
+      year: 2019 - 2024
       description:
-        - Description 1.
+        - 
         - Description 2.
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Contract education in Data Science and Knowledge Engineering.
+      institution: Maastricht University, Netherlands.
+      year: 2017 - 2019
       description:
-        - Description 1.
-        - Description 2.
+        - Undertook fundamental courses in mathematics and computer science at bachelor and master levels.
+    - title: Master of Research in Cognitive Neuroscience.
+      institution: University College London (UCL), UK.
+      year: 2016 - 2017
+    - title: Bachelor of Science in Psychology.
+      institution: Bath Spa University, UK.
+      year: 2013 - 2016
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Visiting Research Scientist in Neuroscience and Machine Learning.
+      institution:  University of Oxford, UK.
+      year: 2024
       description:
         - Description 1.
         - Description 2.
@@ -41,57 +36,76 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Visiting PhD Student in Neuroscience and Machine Learning.
+      institution:  University of Oxford, UK.
+      year: 2023 - 2024
       description:
         - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Teaching Assistant.
+      institution: University of Bristol, UK. 
+      year: 2020-2022
       description:
+        - Oct 2021 - January 2022, Computational Neuroscience.
+        - Oct 2020 - April 2021, Engineering Mathematics 1.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Internship in Deep Reinforcement Learning and human vision.
+      institution: Maastricht University, Netherlands.
+      year: 2019
+      description:
+        - Working on a well-known deep RL vision architecture to subsequently model human gaze (<a href="https://github.com/michele1993/RAM_TensorFlow">repo</a>).
 
-- title: Open Source Projects
+    - title: Assistant Data Analyst.
+      institution: Annex Clinical, USA.
+      year: 2016
+      description:
+        - Analysis of a large clinical dataset to investigate the relation between anhedonia and depression in relation to clinical trial drop-out (see <a href="https://www.appliedclinicaltrialsonline.com/view/leverage-site-owned-tech-improve-trial-retention">article</a>).
+
+- title: Awards and Achivements
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 2023
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Wellcome Trust 8-month Transition Fund.
+    - year: 2019
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Wellcome Trust 4-year PhD Scholarship.
+    - year: 2017
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Dean’s list award for top 5% graduating student of the UCL Brain faculty.
+    - year: 2016
+      items: 
+        - British Psychology Association award for the top psychology graduating student of Bath Spa University.
 
-- title: Other Interests
+- title: Programming and Technical Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Deep Learning frameworks:</u> PyTorch (extensive), TensorFlow.
+    - <u>Programming Languages:</u> Python (extensive), Java, Matlab.
+    - <u>Operating Systems:</u> OS, Linux.
+    - <u>Extra:</u> Vim, Git, Latex, high computing facilities (basic).
+
+- title: Summer Schools
+  type: list
+  contents:
+    - <b>Machine Learning x Health</b>, University of Oxford, 1 week, August 2022, Oxford, UK.
+    - <b>Deep Learning</b>, Neuromatch Academy, 3 weeks, July 2022, online.
+    - <b>Robotic, Perception and Learning</b>, KTH, 1 week, June 2022, Stockholm, Sweden.
+    - <b>Computational Neuroscience</b>, Neuromatch Academy, 3 weeks, July 2021, online.
+    - <b>2nd International Summer School on Deep Learning</b>, 1 week, July 2018, Genova.
+
+      #- title: Academic Interests
+      #  type: nested_list
+      #  contents:
+      #    - title: Topic 1.
+      #      items: 
+      #        - Description 1.
+      #        - Description 2.
+      #    - title: Topic 2.
+      #      items:
+      #        - Description 1.
+      #        - Description 2.
+      #
+      #- title: Other Interests
+      #  type: list
+      #  contents:
+      #    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
