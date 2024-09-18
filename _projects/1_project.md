@@ -5,6 +5,7 @@ description: Attempts to estimate epistemic uncertainty of value functions, by a
 img: assets/img/Epic_ensamble.png
 importance: 3
 category: Past
+redirect: /assets/pdf/example_pdf.pdf
 ---
 
 ** Overview **
