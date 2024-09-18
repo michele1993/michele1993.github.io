@@ -1,80 +1,45 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: ET & IT neuron modelling
+description: Building a computational model of cortical ET and IT pyramidal neurons during learning of a stimulus-reward association task.
+img: assets/img/icon_ET_IT_diagram.png
+importance: 2
+category: Ongoing
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Here, I provide a very brief overview of my role in this project. At the moment, we are preparing a manuscript for submission to a journal, so I hope I will soon be able to share way more about this exciting project.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<b> Overview </b>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In this project I collaborated with experimental neuroscientists to build a computational model of layer 5 (pyramidal) ET and IT neurons during learning of a reward association task in mice.
+My role requiried designing a computational model that could predict the experimental data.
+Since the experimental data was based on a stimulus-reward association task, we modeled the value encoding process of the task based on reinforcement learning update rule.
+This update rule was used to train a (linear) neural network to predict the value of several inputs/stimuli. 
+We refer to this network as the 'value-encoding' network.
+The value-encoding network was combined with a separate convolutional or feedforward auto-encoder model.
+The role of this auto-encoder model was to extract useful latent features, which may help the value-predicting network predict the correct value of each stimulus.
+A simplfied diagram of the overall model is provided below,
+ 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ET_IT_diagram.png" title="example image" class="img-fluid rounded z-depth-1"  width="700" height="400" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Simplified diagram of the designed IT-ET computational model.
 </div>
+
+In this diagram, the IT cell component corresponds to the encoder block of the auto-encoder model. The auto-encoder was pre-trained on a more general stimulus reconstruction task. An example of the auto-encoder process can be found below,
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/IT_AE.png" title="example image" class="img-fluid rounded z-depth-1" width="500" height="100" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Example diagram of the auto-encoder architecture used to pre-train the (IT) encoder block.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+In mice the stimuli consisted of different whisker stimulation frequency. In the model, we modelled these by generating some synthetic data. 
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

@@ -1,46 +1,36 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Machine Learning and Neuroscience. 
+    - title: PhD in Neuroscience and Machine Learning. 
       institution: Wellcome Trust PhD programme, Faculty of Engineering Mathematics, University of Bristol, UK.
       year: 2019 - 2024
       description:
-        - 
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Applications of deep reinforcement learning to understading human motor learning, especially  with policy gradient methods (60% of PhD).
+        - Purely machine learning projects on improving value-based estimation methods in reinforcement learning (40% of PhD).
     - title: Contract education in Data Science and Knowledge Engineering.
       institution: Maastricht University, Netherlands.
       year: 2017 - 2019
       description:
         - Undertook fundamental courses in mathematics and computer science at bachelor and master levels.
-    - title: Master of Research in Cognitive Neuroscience.
+    - title: Master of Research (MRes) in Cognitive Neuroscience.
       institution: University College London (UCL), UK.
       year: 2016 - 2017
-    - title: Bachelor of Science in Psychology.
+    - title: Bachelor of Science (BSc) in Psychology.
       institution: Bath Spa University, UK.
       year: 2013 - 2016
 
 - title: Experience
   type: time_table
   contents:
-    - title: Visiting Research Scientist in Neuroscience and Machine Learning.
-      institution:  University of Oxford, UK.
-      year: 2024
+    - title: <a href="https://www.dpag.ox.ac.uk/team/michele-garibbo"> Postdoctoral Research Scientist in Neuroscience and Machine Learning.</a>
+      institution:  University of Oxford (visiting), UK.
+      year: Current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Working on RL latent planning models of human cognitive planning.
+        - Collaborating with experimental neuroscientists to build a computational model of pyramidal IT and ET neurons during learning of a reward association task. 
     - title: Visiting PhD Student in Neuroscience and Machine Learning.
       institution:  University of Oxford, UK.
       year: 2023 - 2024
-      description:
-        - Description 1.
     - title: Teaching Assistant.
       institution: University of Bristol, UK. 
       year: 2020-2022
