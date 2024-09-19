@@ -30,8 +30,3 @@ This interest led me towards two main research directions.
 The first one involes developing policy gradients methods to understanding human motor learning. 
 The second one involves investigating human cognitive planning through the lenses of latent planning models in the RL literature.
 During my PhD, I also worked on purely deep RL projects on improving value estimation in Actor-Critic algorithms.
-
-------------
-
-**A little about myself**
-
