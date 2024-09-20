@@ -29,4 +29,5 @@ My research focuses on applying (deep) reinforcement learning (RL) techniques to
 First, I explore how policy gradient methods can help our understanding of human motor learning.
 Second, I investigate human cognitive planning by leveraging latent planning models from the RL literature.
 Additionally, during my PhD, I worked on (purely) deep RL projects focused on improving value estimation in Actor-Critic algorithms.
+
 More broadly, I'm interested in how machine learning and computational models can provide a framework to better understand the vast neural and behavioral data in neuroscience.
