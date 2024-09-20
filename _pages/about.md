@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 
 Ciao!
 
-I am a visiting Postdoctoral Research Associate in Neuroscience and Machine Learning at the University of Oxford (UK) in the <a href='https://neuralml.github.io'>Neural & Machine Larning Group</a>.
+I am a visiting Postdoctoral Research Associate in Neuroscience and Machine Learning in the <a href='https://neuralml.github.io'>Neural & Machine Larning Group</a> at the University of Oxford (UK).
 I did my PhD in Machine Learning and Neuroscience at the University of Bristol under the supervison of Laurence Aitchison (primary), Casimir Ludwig and Nathan Lepora. 
 
 Previously, I obtained a master of research in Cognitive Neuroscience at UCL and I undertook contract education in Data Science and Knowledge Engineering at the University of Maastricht.
@@ -25,8 +25,8 @@ Previously, I obtained a master of research in Cognitive Neuroscience at UCL and
 
 **Research interests**
 
-My research interest focuses on applications of (deep) reinforcement learning (RL) to neuroscience. 
-This interest led me towards two main research directions. 
-The first one involes developing policy gradients methods to understanding human motor learning. 
-The second one involves investigating human cognitive planning through the lenses of latent planning models in the RL literature.
-During my PhD, I also worked on purely deep RL projects on improving value estimation in Actor-Critic algorithms.
+My research focuses on applying (deep) reinforcement learning (RL) techniques to neuroscience, with two primary areas of emphasis.
+First, I explore how policy gradient methods can help our understanding of human motor learning.
+Second, I investigate human cognitive planning by leveraging latent planning models from the RL literature.
+Additionally, during my PhD, I worked on (purely) deep RL projects focused on improving value estimation in Actor-Critic algorithms.
+More broadly, I'm interested in how machine learning and computational models can provide a framework to better understand the vast neural and behavioral data in neuroscience.
