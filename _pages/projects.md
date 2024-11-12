@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of the most important projects I am working and I worked on.
 nav: true
 nav_order: 1
-display_categories: [Ongoing, Past]
+display_categories: [Ongoing, Past, Extra]
 horizontal: false
 ---
 
