@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.dpag.ox.ac.uk/team/michele-garibbo'>University of Oxford</a>
+subtitle: <a href='https://www.crg.eu/en/group-members/michele-garibbo'>CRG</a>
 
 profile:
   align: right
@@ -15,19 +15,15 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 Ciao!
-
-I am a visiting Postdoctoral Research Associate in Neuroscience and Machine Learning in the <a href='https://neuralml.github.io'>Neural & Machine Larning Group</a> at the University of Oxford (UK).
-I did my PhD in Machine Learning and Neuroscience at the University of Bristol under the supervison of Laurence Aitchison (primary), Casimir Ludwig and Nathan Lepora. 
-
-Previously, I obtained a master of research in Cognitive Neuroscience at UCL and I undertook contract education in Data Science and Knowledge Engineering at the University of Maastricht.
+I am a Deep Learning Scientist in <a href="https://www.aiproteindesign.com">AI for Protein Design</a> led by Noelia Ferruz at the Centre for Genomic Regulation.
+Previously, I was a Postdoctoral Research Associate in Neuroscience and Machine Learning in the <a href="https://neuralml.github.io">Neural & Machine Learning Group</a> at the University of Oxford.
+I completed my PhD in Machine Learning and Neuroscience at the University of Bristol under the supervision of Laurence Aitchison (primary), Casimir Ludwig, and Nathan Lepora.
 
 -------------
 
 **Research interests**
 
-My research focuses on applying (deep) reinforcement learning (RL) techniques to neuroscience, with two primary areas of emphasis.
-First, I explore how policy gradient methods can help our understanding of human motor learning.
-Second, I investigate human cognitive planning by leveraging latent planning models from the RL literature.
-Additionally, during my PhD, I worked on (purely) deep RL projects focused on improving value estimation in Actor-Critic algorithms.
+My research focuses on end-to-end training of autoregressive protein language models, with particular emphasis on large-scale pretraining and reinforcement learning–based alignment. I also explore genomic foundation models (e.g., Evo2) and their applications to de novo design of functional elements such as piggyBac transposons.
 
-More broadly, I'm interested in how machine learning and computational models can provide a framework to better understand the vast neural and behavioral data in neuroscience.
+Previously, I worked on reinforcement learning applications to understanding motor learning in neuroscience, as well as deep RL research aimed at improving value estimation in Actor–Critic algorithms.
+More broadly, I am interested in how machine learning and computational models can provide principled frameworks for understanding and designing biological systems.
