@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Transformer from scratch
-description: My own implementation of an encoder-decoder Transformer, trained on a random sequence dataset. 
-img: assets/img/EDT_diagram.png
-importance: 2
+title: Popular deep RL algorithms
+description: My own implementation of the most popular deep RL algorithms for both discrete and continous action spaces.
+img: assets/img/RL_algPerformances.png
+importance: 6
 category: Extra
-redirect: https://github.com/michele1993/Transformer_from_scratch/tree/main
+redirect: https://github.com/michele1993/Standard_RL_Algorithms/tree/main
 ---

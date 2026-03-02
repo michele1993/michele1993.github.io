@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Action Gradients in the Brain
-description: Propose a 'action gradient' framework that may help explain Cerebellar and Basal Granglia interactions during learning.
-img: assets/img/AG_NeuralCircuit.png
-importance: 3
-category: Ongoing
-redirect: /assets/pdf/Action_gradients_in_the_brain.pdf
+title: Protein design with LLMs
+description: Fine-tune a pretrained protein-based generative large language model on a specific dataset, using supervised fine-tuning and DPO. 
+img: assets/img/ProtDesign.png
+importance: 4
+category: Extra
+redirect: https://github.com/michele1993/Protein_design/tree/main
 ---
