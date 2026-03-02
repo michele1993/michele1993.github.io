@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Transformer from scratch
-description: My own implementation of an encoder-decoder Transformer, trained on a random sequence dataset. 
-img: assets/img/EDT_diagram.png
-importance: 5
-category: Extra
-redirect: https://github.com/michele1993/Transformer_from_scratch/tree/main
+title: ProtGPT3
+description: End-to-end training of the next generation of autoregressive protein language models. 
+img: assets/img/ProtGPT3.png
+importance: 1
+category: Ongoing
 ---

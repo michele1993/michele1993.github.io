@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Popular deep RL algorithms
-description: My own implementation of the most popular deep RL algorithms for both discrete and continous action spaces.
-img: assets/img/RL_algPerformances.png
-importance: 6
-category: Extra
-redirect: https://github.com/michele1993/Standard_RL_Algorithms/tree/main
+title: ProtRL
+description: Help maitain the ProtRL repo, which provides ready-to-use RL algorithms tailored to aligning protein language models to target features.
+img: assets/img/ProtRL.png
+importance: 3
+category: Ongoing
+redirect: https://github.com/AI4PDLab/ProtRL
 ---

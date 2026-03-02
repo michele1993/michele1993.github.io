@@ -4,7 +4,7 @@ title: MuZero and Cognitive Planning
 description: Investigate the relation between the famous MuZero algorithm and human cognitive planning.
 img: assets/img/MuZero_planning.png
 redirect: https://2025.ccneuro.org/abstract_pdf/Garibbo_2025_Uncovering_brain-wide_planning_strategies_deep_RL.pdf
-importance: 2
+importance: 1
 category: Extra
 ---
 
