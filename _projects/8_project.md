@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ProtRL
-description: Help maintain the ProtRL repo, which provides ready-to-use RL algorithms tailored to aligning protein language models with target features.
+description: Helped scale and maitain the ProtRL repo, which provides ready-to-use RL algorithms tailored to aligning protein language models to target protein properties (e.g., activity, stability etc.).
 img: assets/img/ProtRL.png
 importance: 3
 category: Ongoing
